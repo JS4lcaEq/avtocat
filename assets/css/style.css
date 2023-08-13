@@ -153,7 +153,10 @@
   .personal-area .filter-line div > ul{
     margin-top: 10px;
   }
-
+  .personal-area .filter-line input {
+    display: block;
+    margin-top: 10px;
+  }
 
   .personal-area .cars-list {
     margin: 0;
@@ -163,6 +166,7 @@
 
 .personal-area .cars-list li {
   display: flex;
+  margin-top: 10px;
 }
 
 .personal-area .cars-list  div {
