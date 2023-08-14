@@ -43,7 +43,7 @@
   header {
     display: flex;
     align-items: center;
-    width: 1440px;
+    width: 1200px;
     margin: auto;
     padding: 40px 0 40px 0;
     border-bottom: 1px solid #000;
@@ -63,7 +63,7 @@
   
   main {
     padding: 20px 0;
-    width: 1440px;
+    width: 1200px;
     margin: auto;
   }
 
@@ -78,7 +78,7 @@
   }
 
   h4 {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   li {
@@ -133,7 +133,7 @@
   }
   .personal-area .personal-date-block li{
     list-style: none;
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .personal-area .filter-line {
@@ -183,7 +183,7 @@ margin: 0;
 }
   
   footer {
-    width: 1440px;
+    width: 1200px;
     border-top: 1px solid #000;
     margin: auto;
     display: flex;
