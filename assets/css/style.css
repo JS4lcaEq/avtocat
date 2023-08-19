@@ -395,7 +395,7 @@ button.next-list-button {
 }
 
 .personal-area .cars-list .options-list-block li {
-  list-style: disc;
+  list-style: square;
   list-style-position: inside;
   overflow: hidden;
   height: 16px;
