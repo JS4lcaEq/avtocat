@@ -173,8 +173,9 @@ button {
   background-color: transparent;
   /* height: 28px; */
   line-height: 34px;
-  font-size: 26px;
+  font-size: 24px;
   width: 180px;
+  font-family: MartianMono_Condensed-Light;
 }
 
 button.inverse-button {
@@ -499,7 +500,7 @@ footer img {
 
   .second-option-list {
     display: block;
-    width: 280px;
+    width: 265px;
   }
 
   .first-option-list {
