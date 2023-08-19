@@ -168,8 +168,6 @@ main {
   font-size: 18px;
 }
 
-
-
 button {
   border: #0095B5 solid 2px;
   background-color: transparent;
@@ -241,16 +239,20 @@ button.next-list-button {
   display: flex;
   justify-content: space-between;
   width: 520px;
-  border-bottom: dotted 3px #000;
+  /* border-bottom: dotted 3px #000; */
   padding: 0;
   margin-bottom: 20px;
+  background-image: url(../img/dotted.png);
+  background-position: bottom;
+  background-repeat: repeat-x;
   /* height: 12px; */
 }
 
 .personal-area .personal-date-block .date span {
   background-color: #fff;
+
   display: block;
-  margin-bottom: -6px;
+  margin-bottom: 0;
 }
 
 .personal-area .personal-date-block ul {
@@ -377,7 +379,9 @@ button.next-list-button {
 }
 
 .personal-area .cars-list .details-block .params-list li {
-  border-bottom: dotted 3px #000;
+  background-image: url(../img/dotted.png);
+  background-position: bottom;
+  background-repeat: repeat-x;
   display: flex;
   justify-content: space-between;
   width: 333px;
@@ -386,7 +390,7 @@ button.next-list-button {
 }
 
 .personal-area .cars-list .details-block .params-list li span {
-  margin-bottom: -5px;
+  margin-bottom: 1px;
   background-color: #fff;
 }
 
@@ -408,7 +412,9 @@ button.next-list-button {
 }
 
 .personal-area .cars-list .review-count-list li {
-  border-bottom: dotted 3px #000;
+  background-image: url(../img/dotted.png);
+  background-position: bottom;
+  background-repeat: repeat-x;
   display: flex;
   justify-content: space-between;
   margin-bottom: 11px;
@@ -416,7 +422,7 @@ button.next-list-button {
 
 .personal-area .cars-list .review-count-list span {
   background-color: #fff;
-  margin-bottom: -6px;
+  margin-bottom: 1px;
 
 }
 
