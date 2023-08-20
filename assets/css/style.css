@@ -59,7 +59,6 @@ nav span {
 #maket {
   position: absolute;
   z-index: -100;
-  background-image: url(../img/AvtoCat-1_p1.jpg);
   background-color: #0095B5;
   background-position: center top;
   background-repeat: no-repeat;
@@ -76,7 +75,6 @@ a {
 
 h3 {
   font-size: 32px;
-  /* font-weight: normal; */
 }
 
 h4 {
@@ -89,7 +87,6 @@ h4 {
 h5 {
   font-size: 20px;
   margin: 0 0 18px 0;
-  /* font-weight: normal; */
 }
 
 h6 {
@@ -112,7 +109,6 @@ header {
   max-width: var(--max-width);
   margin: auto;
   padding: 14px 0 25px 0;
-  /* border-bottom: 1px solid #000; */
 }
 
 header h1,
@@ -171,7 +167,6 @@ main {
 button {
   border: #0095B5 solid 2px;
   background-color: transparent;
-  /* height: 28px; */
   line-height: 34px;
   font-size: 24px;
   width: 180px;
@@ -193,7 +188,6 @@ button.next-list-button {
 
 .personal-area .head-line>div {
   flex-grow: 10;
-  /* align-self:flex-end; */
   line-height: 70px;
   margin-left: 90px;
   margin-top: 5px;
@@ -240,13 +234,11 @@ button.next-list-button {
   display: flex;
   justify-content: space-between;
   width: 520px;
-  /* border-bottom: dotted 3px #000; */
   padding: 0;
   margin-bottom: 20px;
   background-image: url(../img/dotted.png);
   background-position: bottom;
   background-repeat: repeat-x;
-  /* height: 12px; */
 }
 
 .personal-area .personal-date-block .date span {
@@ -270,7 +262,6 @@ button.next-list-button {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  /* height: 223px; */
   padding: 6px 0 12px 0;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
@@ -303,14 +294,12 @@ button.next-list-button {
 }
 
 .personal-area .filter-line input {
-  /* display: block; */
   margin-top: 10px;
 }
 
 .personal-area .cars-list {
   margin: 0 0 40px 0;
   padding: 0;
-
 }
 
 .personal-area .car-list-header-line {
@@ -361,13 +350,10 @@ button.next-list-button {
 
 .personal-area .cars-list div.long {
   flex-grow: 10;
-
-  /* background-color: #0095B5; */
 }
 
 .personal-area .cars-list div.long li {
   padding: 0 0 9px 0;
-  /* background-color: #0095B5; */
 }
 
 .personal-area .cars-list h4 {
@@ -399,7 +385,6 @@ button.next-list-button {
   list-style: square;
   list-style-position: inside;
   overflow: hidden;
-  /* height: 16px; */
 }
 
 .personal-area .cars-list .options-list-block {
@@ -512,3 +497,4 @@ footer img {
   text-align: right;
   flex-grow: 10;
 }
+
